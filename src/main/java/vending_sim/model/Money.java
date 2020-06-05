@@ -1,4 +1,4 @@
-package vending_sim.model.impl;
+package vending_sim.model;
 
 import lombok.AllArgsConstructor;
 import vending_sim.model.Currency;

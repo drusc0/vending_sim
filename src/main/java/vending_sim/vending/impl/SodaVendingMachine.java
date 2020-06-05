@@ -1,9 +1,9 @@
 package vending_sim.vending.impl;
 
-import javafx.util.Pair;
+import vending_sim.model.Bucket;
 import vending_sim.model.Item;
-import vending_sim.model.Price;
-import vending_sim.model.impl.Money;
+import vending_sim.model.impl.Price;
+import vending_sim.model.Money;
 import vending_sim.vending.VendingMachine;
 
 public class SodaVendingMachine implements VendingMachine {
@@ -14,7 +14,7 @@ public class SodaVendingMachine implements VendingMachine {
     }
 
     @Override
-    public Pair<Item, Money> purchaseItem(Item item) {
+    public Bucket purchaseItem(Item item) {
         return null;
     }
 
